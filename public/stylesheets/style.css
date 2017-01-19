@@ -1,0 +1,23 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.inputPadding {
+  padding-top: 24px;
+}
+.textAreaW {
+  width: 100%;
+}
+.sub {
+  margin-left: 45%;
+  margin-top: 20px;
+}
+.resultText {
+  margin-top: 20px;
+  text-align: center;
+}

@@ -1,0 +1,19 @@
+//
+   Created by chen on 2016/12/10.
+extends layout
+block content
+   h1= 发布文章
+   form(action="/articleInfo" method="POST")
+      div.input-group
+         span.input-group-addon#tile 标题
+         input(type="text" aria-describedby="sizing-addon2" name="title").form-control
+      div.input-group.inputPadding
+         span.input-group-addon#link 链接
+         input(type="text" aria-describedby="sizing-addon2" name="link").form-control
+         input(type="hidden" aria-describedby="sizing-addon2" name="poster" value='chenjunquan').form-control
+      div.inputPadding
+         span.input-group-addon#content 内容
+         textarea(name="content" rows=5).textAreaW
+      input(type="submit" content="提交").btn.btn-default.sub
+      - if(result)
+            div.resultText 执行结果：#{result}

@@ -1,0 +1,7 @@
+var config = {
+    ARTICLE : "H_ARTICLE",
+    ARTICLETIME:'Z_ARTICLETIME',
+    ARTICLESCORE:'Z_ARTICLESCORE',
+    ARTICLEVOTE:'S_ARTICLEVOTE'
+};
+module.exports = config;
